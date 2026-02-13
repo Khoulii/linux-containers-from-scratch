@@ -2,7 +2,7 @@
 
 This project implements a minimal Linux container runtime in ~500 lines of C code, demonstrating how modern containerization technologies work at the kernel level.
 
-> **⚠️ Disclaimer**: This project **reproduces the code from Lizzie Dixon’s blog post**: [Linux Containers in 500 LOC](https://blog.lizzie.io/linux-containers-in-500-loc.html). All code in this repository is copied directly from the blog. The additional **documentation, explanations, and examples in this repo are written by me** to make it easier to understand and learn, inspired by the original blog post. This is an **educational project only**. Do NOT use in production. Use Docker, Podman, or other established container runtimes for real workloads.
+**⚠️ Disclaimer**: This project reproduces and modifies the code from Lizzie Dixon’s blog post: [Linux Containers in 500 LOC](https://blog.lizzie.io/linux-containers-in-500-loc.html). The code has been adapted, annotated, and extended for educational purposes. This is an **educational project only**. Do NOT use in production. Use Docker, Podman, or other established container runtimes for real workloads.
 
 ---
 
@@ -1160,14 +1160,14 @@ ldd ~/alpine-rootfs/bin/sh
 
 ## License
 
-- **Code**: All code in this repository is copied from [Lizzie Dixon’s blog](https://blog.lizzie.io/linux-containers-in-500-loc.html). Please refer to the original blog for code usage.
-- **Documentation**: All documentation, comments, and examples in this repository are written by me and are licensed under the [MIT License](LICENSE.md).
+- **Code and Documentation**: This repository, including all code, comments, explanations, and examples, is licensed under the [GNU GPLv3](LICENSE).  
+- Portions of the code are derived from [Lizzie Dixon’s blog](https://blog.lizzie.io/linux-containers-in-500-loc.html) and are included under GPLv3 in accordance with the original license.
 
 ---
 
 ## Credits
 
-- Lizzie Dixon – Original code and blog post inspiration
-- Linux kernel developers
-- Docker and container runtime maintainers
+- Lizzie Dixon – Original code and blog post inspiration  
+- Linux kernel developers  
+- Docker and container runtime maintainers  
 - Security researchers who contributed knowledge to container isolation and vulnerabilities
